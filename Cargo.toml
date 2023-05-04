@@ -1,0 +1,19 @@
+[package]
+name = "axum-skeleto-rs"
+authors = ["dmadm2008@gmail.com"]
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.68"
+axum = "0.6.18"
+clap = { version = "4.2.5", features = ["derive"] }
+hyper = "0.14.26"
+serde = { version = "1.0.160", features = ["serde_derive", "derive"] }
+serde_json = "1.0.96"
+thiserror = "1.0.40"
+tokio = { version = "1.28.0", features = ["macros", "tokio-macros", "rt", "rt-multi-thread"] }
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"
