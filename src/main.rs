@@ -7,6 +7,7 @@ mod utils;
 use crate::{core::Backend, frontend::run_api, settings::Settings, utils::SharedDataContainer};
 use std::net::SocketAddr;
 
+// An example which implements Backend trait
 #[derive(Default, Clone)]
 pub struct Counter(usize);
 
